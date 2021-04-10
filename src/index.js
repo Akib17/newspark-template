@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './app/App.jsx';
 import reportWebVitals from './reportWebVitals';
+// Css
+import './assets/css/plugins/bootstrap.min.css'
+import './assets/css/plugins/animate.min.css'
+import './assets/css/plugins/fontawesome.css'
+import './assets/css/plugins/modal-video.min.css'
+import './assets/css/plugins/owl.carousel.css'
+import './assets/css/plugins/slick.css'
+import './assets/css/theme.css'
+
 
 ReactDOM.render(
   <React.StrictMode>
